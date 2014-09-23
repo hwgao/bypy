@@ -2799,8 +2799,8 @@ right after the '# PCS configuration constants' comment.
 		global HashCachePath
 
 		if args.name:
-			TokenFilePath = HomeDir + os.sep + args.name + '.json'
-			HashCachePath = HomeDir + os.sep + args.name + '.pickle'
+			TokenFilePath = HomeDir + os.sep + '.' + args.name + '.json'
+			HashCachePath = HomeDir + os.sep + '.' + args.name + '.pickle'
 
 		pr("Token file: '{}'".format(TokenFilePath))
 		pr("Hash Cache file: '{}'".format(HashCachePath))
