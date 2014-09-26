@@ -2475,8 +2475,6 @@ if not specified, it defaults to the root directory.
 		pr("Local only: {}".format(len(local)));
 		pr("Remote only: {}".format(len(remote)));
 
-		return (len(same), len(diff), len(local), len(remote))
-
 	def syncdown(self, remotedir = '', localdir = '', deletelocal = False):
 		''' Usage: syncdown [remotedir] [localdir] [deletelocal] - \
 sync down from the remote direcotry to the local directory
